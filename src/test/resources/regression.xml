@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Regression API tests" verbose="1">
+    <test name="Posts API tests" thread-count="5" >
+        <packages>
+            <package name="post.*"/>
+        </packages>
+    </test>
+</suite>
